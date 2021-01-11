@@ -16,6 +16,18 @@ body {
   justify-content: center;
   align-items: center;
 }
+.entry-container {
+  background: rgb(37, 37, 37);
+  padding: 4rem;
+  border-radius: 5px;
+}
+
+.entry-container h1 {
+  color: var(--highlight);
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
 
 .entry-form {
   display: flex;
