@@ -14,12 +14,13 @@
   <body>
     <div class="container">
       <form onsubmit="handleLogin(event)" class="entry-form">
-        <label>Username</label>
-        <input type="text" />
-        <label>Password</label>
-        <input type="password" />
+        <label for="username">Username</label>
+        <input id="username" type="text" name="username" />
+        <label for="password">Password</label>
+        <input id="password" type="password" name="password" />
         <input type="submit" />
       </form>
     </div>
   </body>
+  <script type="text/javascript" src="./login.js"></script>
 </html>
