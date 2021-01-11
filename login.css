@@ -19,7 +19,10 @@ body {
 .entry-container {
   background: rgb(37, 37, 37);
   padding: 4rem;
+  margin: 1rem;
   border-radius: 5px;
+  display: flex;
+  flex-direction: column;
 }
 
 .entry-container h1 {
@@ -47,4 +50,11 @@ body {
 .entry-form input[type="submit"] {
   background: var(--highlight);
   border: 1px solid var(--highlight);
+}
+
+.entry-container a {
+  color: var(--highlight);
+  font-size: 0.9rem;
+  text-decoration: none;
+  margin: 3px 0;
 }
